@@ -14,7 +14,7 @@ export default function Hero() {
   const currentLocale = pathname.split("/")[1] || "ar";
 
   return (
-    <section className="flex my-16 bg-zinc-950 flex-col-reverse md:flex-row items-center justify-between py-16">
+    <section className="flex my-16 flex-col-reverse md:flex-row items-center justify-between py-16">
       <div
         className="flex-1 space-y-6"
         dir={currentLocale === "ar" ? "rtl" : "ltr"}
@@ -42,7 +42,7 @@ export default function Hero() {
             </Button>
           </Link>
 
-          <Link href="/cv.pdf">
+          <Link href="/assets/cv.pdf">
             <Button variant="outline">{t("Actions.Download")}</Button>
           </Link>
         </div>

@@ -37,7 +37,7 @@ function Navbar() {
         className={`fixed z-50 top-8 left-0 right-0 transition-all`}
       >
         <div
-          className="flex h-16 rounded-full max-w-screen-lg bg-[#f7f7f7] items-center justify-between mx-auto lg:px-24 md:px-16 sm:px-8 px-4 gap-3"
+          className="flex h-16 rounded-full max-w-screen-lg dark:bg-[#f7f7f7]/80 bg-[#f7f7f7] backdrop-blur-lg items-center justify-between lg:px-24 md:px-16 sm:px-8 px-4 sm:mx-auto mx-4 gap-3"
           dir={currentLocale === "ar" ? "rtl" : "ltr"}
         >
           <Link href={`/${currentLocale}`}>
@@ -51,8 +51,8 @@ function Navbar() {
             />
           </Link>
           <div>
-            <nav className="hidden md:block w-full"  dir={currentLocale === "ar" ? "rtl" : "ltr"}>
-              <ul className="flex flex-row items-center gap-8"  dir={currentLocale === "ar" ? "rtl" : "ltr"}>
+            <nav className="hidden md:block w-full" dir={currentLocale === "ar" ? "rtl" : "ltr"}>
+              <ul className="flex flex-row items-center gap-8" dir={currentLocale === "ar" ? "rtl" : "ltr"}>
                 <Link href={`/${currentLocale}`}>
                   <li className="font-medium sm:text-base text-sm opacity-85 hover:opacity-100 transition-all cursor-pointer  text-black">
                     {t("Home")}

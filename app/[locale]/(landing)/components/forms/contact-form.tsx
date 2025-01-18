@@ -55,7 +55,8 @@ function ContactForm() {
   };
 
   return (
-    <motion.div
+   <section id="contact">
+     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
@@ -133,6 +134,7 @@ function ContactForm() {
         </form>
       </motion.div>
     </motion.div>
+   </section>
   );
 }
 
