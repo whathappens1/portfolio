@@ -1,0 +1,59 @@
+{
+  "Header": {
+    "Logo": "Tameem Al-Sahli",
+    "NavItems": {
+      "ContactUs": "Contact Us",
+      "Services": "Services",
+      "Home": "Home",
+      "Projects": "Projects"
+    },
+    "ModeToggle": {
+      "text": "Toggle Theme",
+      "dark": "Dark",
+      "light": "Light",
+      "system": "System"
+    },
+    "LanguageSwitcher": {
+      "ChooseLanguage": "Choose Language",
+      "AR": "Arabic",
+      "EN": "English"
+    }
+  },
+  "Contact": {
+    "success": "Sent successfully",
+    "error": "An error occurred while sending",
+    "title": "Stay Connected",
+    "description": "Contact Us",
+    "inputs": {
+      "email": "Enter your email",
+      "name": "Enter your name",
+      "message": "Write your message here"
+    },
+    "submit": "Send"
+  },
+  "TrySection": {
+    "title": "Stay Connected",
+    "description": "Contact Us",
+    "moreInfo": "More Information"
+  },
+  "Pages": {
+    "Home": {
+      "Metadata": {
+        "title": "Home Page",
+        "description": ""
+      }
+    }
+  },
+  "Footer": {
+    "Name": "Tameem Al-Sahli",
+    "companyDescription": "",
+    "NavItems": {
+      "legal": {
+        "title": "Legal",
+        "privacyPolicy": "Privacy Policy"
+      }
+    },
+    "termsAndConditions": "Terms and Conditions Policy",
+    "allRightsReserved": "All Rights Reserved to"
+  }
+}

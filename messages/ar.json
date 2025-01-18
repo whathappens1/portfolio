@@ -1,0 +1,68 @@
+{
+  "Header": {
+    "Logo": "تميم السهلي",
+    "NavItems": {
+      "ContactUs": "التواصل",
+      "Services": "الخدمات",
+      "Home": "الرئيسية",
+      "Projects": "المشاريع"
+    },
+    "Hero": {
+      "Name": "معك تميم السهلي",
+      "Description": "مبرمج Fullstack ومصمم مواقع UI/UX",
+      "Welcome": "حياك الله",
+      "Actions": {
+        "Download" : "تنزيل السيرة الذاتية",
+        "ContactUs" : "إبقى على تواصل"
+      }
+    },
+    "ModeToggle": {
+      "text": "تغيير الوضع",
+      "dark": "داكن",
+      "light": "فاتح",
+      "system": "حسب الجهاز"
+    },
+    "LanguageSwitcher": {
+      "ChooseLanguage": "اختر اللغة",
+      "AR": "العربية",
+      "EN": "الإنجليزية"
+    }
+  },
+  "Contact": {
+    "success": "تم الإرسال بنجاح",
+    "error": "حدث خطأ أثناء الإرسال",
+    "title": "إبقى على تواصل",
+    "description": "تواصل معنا",
+    "inputs": {
+      "email": "أدخل بريدك الإلكتروني",
+      "name": "أدخل الاسم الكريم",
+      "message": "أكتب رسالتك هنا"
+    },
+    "submit": "إرسال"
+  },
+  "TrySection": {
+    "title": "إبقى على تواصل",
+    "description": "تواصل معنا",
+    "moreInfo": "المزيد من المعلومات"
+  },
+  "Pages": {
+    "Home": {
+      "Metadata": {
+        "title": "الصفحة الرئيسية",
+        "description": ""
+      }
+    }
+  },
+  "Footer": {
+    "Name": "تميم السهلي",
+    "companyDescription": "",
+    "NavItems": {
+      "legal": {
+        "title": "قانوني",
+        "privacyPolicy": "سياسة الخصوصية"
+      }
+    },
+    "termsAndConditions": "سياسة الشروط والأحكام",
+    "allRightsReserved": "كل الحقوق محفوظة لـ"
+  }
+}
