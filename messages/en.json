@@ -7,6 +7,44 @@
       "Home": "Home",
       "Projects": "Projects"
     },
+    "Hero": {
+      "Name": "With You, Tameem Al-Sahli",
+      "Description": "Fullstack Developer and UI/UX Designer",
+      "Welcome": "Welcome",
+      "Actions": {
+        "Download": "Download CV",
+        "ContactUs": "Stay in Touch"
+      }
+    },
+    "Projects": {
+      "Title": "Private Projects",
+      "Description": "Some of the latest previous projects",
+      "TechStack": "Technologies Used",
+      "ViewReview": "View Project",
+      "Project1": {
+        "Title": "Taysira Platform",
+        "ImageUrl": "/assets/images/projects/1.png",
+        "Description": "Facilitating e-commerce and tech projects through the latest technologies and artificial intelligence",
+        "TechStack": [
+          "Next.js 14",
+          "TypeScript",
+          "Prisma",
+          "ShadCN"
+        ],
+        "ReviewLink": "https://taysira.com"
+      },
+      "Project2": {
+        "Title": "NCMC Company Website",
+        "ImageUrl": "/assets/images/projects/2.png",
+        "Description": "Developing a comprehensive website that professionally showcases the company's services and information",
+        "TechStack": [
+          "Next.js 14",
+          "TypeScript",
+          "ShadCN"
+        ],
+        "ReviewLink": "https://ncmc.com.sa/"
+      }
+    },
     "ModeToggle": {
       "text": "Toggle Theme",
       "dark": "Dark",

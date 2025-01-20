@@ -57,19 +57,19 @@ function MenuButton() {
             <ul>
               <LanguageSwitcher />
 
-              <Link href={`/${currentLocale}/contact`}>
+         
+              <Link href={`/${currentLocale}`}>
                 <li
                   onClick={() => {
                     setDrawerOpen(false);
                   }}
                   className={`p-1 m-2 hover:bg-muted rounded-md transition-all px-3 cursor-pointer flex items-center gap-2 ${
-                    pathname == "/contact" && "font-medium bg-muted"
+                    pathname == "/" && "font-medium bg-muted"
                   }`}
                 >
-                  {t("ContactUs")}{" "}
+                  {t("Home")}
                 </li>
               </Link>
-          
               <Link href={`/${currentLocale}#projects`}>
                 <li
                   onClick={() => {
@@ -82,16 +82,16 @@ function MenuButton() {
                   {t("Projects")}
                 </li>
               </Link>
-              <Link href={`/${currentLocale}`}>
+              <Link href={`/${currentLocale}#contact`}>
                 <li
                   onClick={() => {
                     setDrawerOpen(false);
                   }}
                   className={`p-1 m-2 hover:bg-muted rounded-md transition-all px-3 cursor-pointer flex items-center gap-2 ${
-                    pathname == "/" && "font-medium bg-muted"
+                    pathname == "/contact" && "font-medium bg-muted"
                   }`}
                 >
-                  {t("Home")}
+                  {t("ContactUs")}{" "}
                 </li>
               </Link>
             </ul>
