@@ -1,6 +1,6 @@
 "use client";
 import { Button } from "@/components/ui/button";
-import { ChevronDown, Menu, X } from "lucide-react";
+import { Menu } from "lucide-react";
 import Link from "next/link";
 import {
   Drawer,
@@ -10,9 +10,7 @@ import {
 } from "@/components/ui/drawer";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { ListItem } from "./navbar";
-import { NavigationMenu } from "@/components/ui/navigation-menu";
-import { motion, AnimatePresence } from "framer-motion";
+
 import { useTranslations } from "next-intl";
 import { LanguageSwitcher } from "./language-switcher";
 
@@ -56,8 +54,6 @@ function MenuButton() {
           >
             <ul>
               <LanguageSwitcher />
-
-         
               <Link href={`/${currentLocale}`}>
                 <li
                   onClick={() => {
@@ -71,7 +67,7 @@ function MenuButton() {
                 </li>
               </Link>
               <Link href={`/${currentLocale}#projects`}>
-                <li
+              <li
                   onClick={() => {
                     setDrawerOpen(false);
                   }}
@@ -80,6 +76,18 @@ function MenuButton() {
                   }`}
                 >
                   {t("Projects")}
+                </li>
+              </Link>
+              <Link href={`/${currentLocale}#skills`}>
+                <li
+                  onClick={() => {
+                    setDrawerOpen(false);
+                  }}
+                  className={`p-1 m-2 hover:bg-muted rounded-md transition-all px-3 cursor-pointer flex items-center gap-2 ${
+                    pathname == "/" && "font-medium bg-muted"
+                  }`}
+                >
+                  {t("Skills")}
                 </li>
               </Link>
               <Link href={`/${currentLocale}#contact`}>

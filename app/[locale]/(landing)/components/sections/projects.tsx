@@ -8,7 +8,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 
 export default function Projects() {
-  const t = useTranslations("Header.Projects");
+  const t = useTranslations("Projects");
   const pathname = usePathname();
   const currentLocale = pathname.split("/")[1] || "ar";
 
@@ -54,6 +54,7 @@ export default function Projects() {
           whileInView="show"
           viewport={{ once: true }}
           className="flex items-center justify-center gap-2 flex-wrap"
+          dir={currentLocale === "ar" ? "rtl" : "ltr"}
         >
           {[1, 2].map((project) => (
             <motion.div
@@ -78,7 +79,7 @@ export default function Projects() {
                 <h3 className="text-xl font-semibold text-foreground">
                   {t(`Project${project}.Title`)}
                 </h3>
-                <p className="text-muted-foreground">
+                <p className="text-muted-foreground line-clamp-2">
                   {t(`Project${project}.Description`)}
                 </p>
 

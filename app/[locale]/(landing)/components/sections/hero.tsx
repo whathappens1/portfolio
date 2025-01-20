@@ -14,9 +14,9 @@ export default function Hero() {
   const currentLocale = pathname.split("/")[1] || "ar";
 
   return (
-    <section className="flex my-16 flex-col-reverse md:flex-row items-center justify-between py-16">
+    <section className="flex my-16 flex-col items-center justify-between py-16">
       <div
-        className="flex-1 space-y-6"
+        className="w-full space-y-8"
         dir={currentLocale === "ar" ? "rtl" : "ltr"}
       >
         <h1 className="text-4xl font-bold tracking-tight lg:text-5xl">

@@ -5,7 +5,8 @@
       "ContactUs": "التواصل",
       "Services": "الخدمات",
       "Home": "الرئيسية",
-      "Projects": "المشاريع"
+      "Projects": "المشاريع",
+      "Skills": "المهارات"
     },
     "Hero": {
       "Name": "معك تميم السهلي",
@@ -16,35 +17,7 @@
         "ContactUs": "إبقى على تواصل"
       }
     },
-    "Projects": {
-      "Title": "المشاريع الخاصة",
-      "Description": "بعض من أخر المشاريع السابقة",
-      "TechStack": "التقنيات المستخدمة",
-      "ViewReview": "رؤية المشروع",
-      "Project1": {
-        "Title": "منصة تيسيرة",
-        "ImageUrl": "/assets/images/projects/1.png",
-        "Description": "لتيسير التجارة الإلكترونية والمشاريع التقنية عبر أحدث التقنيات والذكاء الاصطناعي",
-        "TechStack": [
-          "Next.js 14",
-          "TypeScript",
-          "Prisma",
-          "ShadCN"
-        ],
-        "ReviewLink": "https://taysira.com"
-      },
-      "Project2": {
-        "Title": "موقع شركة NCMC",
-        "ImageUrl" : "/assets/images/projects/2.png",
-        "Description": "تطوير موقع إلكتروني شامل يعرض خدمات ومعلومات الشركة بشكل احترافي",
-        "TechStack": [
-          "Next.js 14",
-          "TypeScript",
-          "ShadCN"
-        ],
-        "ReviewLink": "https://ncmc.com.sa/"
-      }
-    },
+   
     "ModeToggle": {
       "text": "تغيير الوضع",
       "dark": "داكن",
@@ -69,6 +42,47 @@
     },
     "submit": "إرسال"
   },
+  "Projects": {
+    "Title": "المشاريع الخاصة",
+    "Description": "بعض من أخر المشاريع السابقة",
+    "TechStack": "التقنيات المستخدمة",
+    "ViewReview": "رؤية المشروع",
+    "Project1": {
+      "Title": "منصة تيسيرة",
+      "ImageUrl": "/assets/images/projects/1.png",
+      "Description": "لتيسير التجارة الإلكترونية والمشاريع التقنية عبر أحدث التقنيات والذكاء الاصطناعي",
+      "TechStack": [
+        "Next.js 14",
+        "TypeScript",
+        "Prisma",
+        "ShadCN"
+      ],
+      "ReviewLink": "https://taysira.com"
+    },
+    "Project2": {
+      "Title": "موقع شركة NCMC",
+      "ImageUrl" : "/assets/images/projects/2.png",
+      "Description": "تطوير موقع إلكتروني شامل يعرض خدمات ومعلومات الشركة بشكل احترافي",
+      "TechStack": [
+        "Next.js 14",
+        "TypeScript",
+        "ShadCN"
+      ],
+      "ReviewLink": "https://ncmc.com.sa/"
+    }
+  },
+  "Skills": {
+    "Title": "المهارات التقنية",
+    "Description": "التقنيات والأدوات التي أستخدمها في تطوير المشاريع",
+    "React": "تطوير واجهات المستخدم التفاعلية",
+    "NextJS": "إطار عمل React المتقدم للتطبيقات الحديثة",
+    "NodeJS": "تطوير خدمات الخادم والـ API",
+    "TypeScript": "برمجة آمنة النوع لمشاريع أكثر موثوقية",
+    "JavaScript": "لغة البرمجة الأساسية للويب",
+    "Python": "تطوير التطبيقات وتحليل البيانات",
+    "CPP": "برمجة النظم والتطبيقات عالية الأداء",
+    "Figma": "تصميم واجهات المستخدم والنماذج الأولية"
+  },
   "TrySection": {
     "title": "إبقى على تواصل",
     "description": "تواصل معنا",
@@ -84,13 +98,6 @@
   },
   "Footer": {
     "Name": "تميم السهلي",
-    "companyDescription": "",
-    "NavItems": {
-      "legal": {
-        "title": "قانوني",
-        "privacyPolicy": "سياسة الخصوصية"
-      }
-    },
     "termsAndConditions": "سياسة الشروط والأحكام",
     "allRightsReserved": "كل الحقوق محفوظة لـ"
   }

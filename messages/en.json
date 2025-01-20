@@ -5,7 +5,8 @@
       "ContactUs": "Contact Us",
       "Services": "Services",
       "Home": "Home",
-      "Projects": "Projects"
+      "Projects": "Projects",
+      "Skills": "Skills"
     },
     "Hero": {
       "Name": "With You, Tameem Al-Sahli",
@@ -14,35 +15,6 @@
       "Actions": {
         "Download": "Download CV",
         "ContactUs": "Stay in Touch"
-      }
-    },
-    "Projects": {
-      "Title": "Private Projects",
-      "Description": "Some of the latest previous projects",
-      "TechStack": "Technologies Used",
-      "ViewReview": "View Project",
-      "Project1": {
-        "Title": "Taysira Platform",
-        "ImageUrl": "/assets/images/projects/1.png",
-        "Description": "Facilitating e-commerce and tech projects through the latest technologies and artificial intelligence",
-        "TechStack": [
-          "Next.js 14",
-          "TypeScript",
-          "Prisma",
-          "ShadCN"
-        ],
-        "ReviewLink": "https://taysira.com"
-      },
-      "Project2": {
-        "Title": "NCMC Company Website",
-        "ImageUrl": "/assets/images/projects/2.png",
-        "Description": "Developing a comprehensive website that professionally showcases the company's services and information",
-        "TechStack": [
-          "Next.js 14",
-          "TypeScript",
-          "ShadCN"
-        ],
-        "ReviewLink": "https://ncmc.com.sa/"
       }
     },
     "ModeToggle": {
@@ -69,6 +41,47 @@
     },
     "submit": "Send"
   },
+  "Projects": {
+    "Title": "Private Projects",
+    "Description": "Some of the latest previous projects",
+    "TechStack": "Technologies Used",
+    "ViewReview": "View Project",
+    "Project1": {
+      "Title": "Taysira Platform",
+      "ImageUrl": "/assets/images/projects/1.png",
+      "Description": "Facilitating e-commerce and tech projects through the latest technologies and artificial intelligence",
+      "TechStack": [
+        "Next.js 14",
+        "TypeScript",
+        "Prisma",
+        "ShadCN"
+      ],
+      "ReviewLink": "https://taysira.com"
+    },
+    "Project2": {
+      "Title": "NCMC Company Website",
+      "ImageUrl": "/assets/images/projects/2.png",
+      "Description": "Developing a comprehensive website that professionally showcases the company's services and information",
+      "TechStack": [
+        "Next.js 14",
+        "TypeScript",
+        "ShadCN"
+      ],
+      "ReviewLink": "https://ncmc.com.sa/"
+    }
+  },
+  "Skills": {
+    "Title": "Technical Skills",
+    "Description": "Technologies and tools I use in project development",
+    "React": "Building interactive user interfaces",
+    "NextJS": "Advanced React framework for modern applications",
+    "NodeJS": "Server-side and API development",
+    "TypeScript": "Type-safe programming for reliable projects",
+    "JavaScript": "Core web programming language",
+    "Python": "Application development and data analysis",
+    "CPP": "Systems and high-performance applications",
+    "Figma": "UI design and prototyping"
+  },
   "TrySection": {
     "title": "Stay Connected",
     "description": "Contact Us",
@@ -84,13 +97,6 @@
   },
   "Footer": {
     "Name": "Tameem Al-Sahli",
-    "companyDescription": "",
-    "NavItems": {
-      "legal": {
-        "title": "Legal",
-        "privacyPolicy": "Privacy Policy"
-      }
-    },
     "termsAndConditions": "Terms and Conditions Policy",
     "allRightsReserved": "All Rights Reserved to"
   }

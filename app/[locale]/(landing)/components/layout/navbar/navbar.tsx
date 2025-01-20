@@ -9,16 +9,11 @@ import Link from "next/link";
 
 import { cn } from "@/lib/utils";
 import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuItem,
   NavigationMenuLink,
-  NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
 import { LanguageSwitcher } from "./language-switcher";
 import { useTranslations } from "next-intl";
 import { usePathname } from "next/navigation";
-import { Separator } from "@/components/ui/separator";
 import { ModeToggle } from "./mode-toggle";
 
 function Navbar() {
@@ -61,6 +56,11 @@ function Navbar() {
                 <Link href={`/${currentLocale}#projects`}>
                   <li className="font-medium sm:text-base text-sm opacity-85 hover:opacity-100 transition-all cursor-pointer  text-black">
                     {t("Projects")}
+                  </li>
+                </Link>
+                <Link href={`/${currentLocale}#skills`}>
+                  <li className="font-medium sm:text-base text-sm opacity-85 hover:opacity-100 transition-all cursor-pointer  text-black">
+                    {t("Skills")}
                   </li>
                 </Link>
                 <Link href={`/${currentLocale}#contact`}>
