@@ -69,68 +69,17 @@ function MenuButton() {
                   {t("ContactUs")}{" "}
                 </li>
               </Link>
-              <div className="relative">
-                <li
-                  onClick={toggleMoreList}
-                  className={`p-1 m-2 hover:bg-muted rounded-md transition-all group px-3 cursor-pointer flex items-center gap-2`}
-                >
-                  {t("Services")}
-                  <motion.div
-                    animate={{ rotate: moreListOpen ? 180 : 0 }}
-                    transition={{ duration: 0.3 }}
-                  >
-                    <ChevronDown
-                      className="relative top-[1px] h-3 w-3"
-                      aria-hidden="true"
-                    />
-                  </motion.div>
-                </li>
-                <AnimatePresence>
-                  {moreListOpen && (
-                    <motion.div
-                      initial={{ opacity: 0, height: 0 }}
-                      animate={{ opacity: 1, height: "auto" }}
-                      exit={{ opacity: 0, height: 0 }}
-                      transition={{ duration: 0.3, ease: "easeInOut" }}
-                      style={{ originY: 0 }}
-                      className="relative top-full left-0 w-full overflow-hidden"
-                    >
-                      <NavigationMenu
-                        className="flex flex-col"
-                        dir={currentLocale === "ar" ? "rtl" : "ltr"}
-                      >
-                        <ListItem
-                          title={t("AdministrativeConsultingServices.title")}
-                        >
-                          {t("AdministrativeConsultingServices.description")}
-                        </ListItem>
-
-                        <ListItem
-                          title={t("ConciergeServices.title")}
-                          href={`/${currentLocale}/services/concierge`}
-                        >
-                          {t("ConciergeServices.description")}
-                        </ListItem>
-                        <ListItem
-                          title={t("ExhibitionAndConferenceOrganization.title")}
-                        >
-                          {t("ExhibitionAndConferenceOrganization.description")}
-                        </ListItem>
-                      </NavigationMenu>
-                    </motion.div>
-                  )}
-                </AnimatePresence>
-              </div>
-              <Link href={`/${currentLocale}/services/concierge`}>
+          
+              <Link href={`/${currentLocale}#projects`}>
                 <li
                   onClick={() => {
                     setDrawerOpen(false);
                   }}
                   className={`p-1 m-2 hover:bg-muted rounded-md transition-all px-3 cursor-pointer flex items-center gap-2 ${
-                    pathname == "/services/concierge" && "font-medium bg-muted"
+                    pathname == "/" && "font-medium bg-muted"
                   }`}
                 >
-                  {t("ConciergeServices.title")}
+                  {t("Projects")}
                 </li>
               </Link>
               <Link href={`/${currentLocale}`}>
